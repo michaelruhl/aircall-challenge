@@ -50,7 +50,7 @@ export default function App() {
 
   return (
     <div>
-      <div id="body">
+      <div id="body pt-0">
         <div className="basis-1/3 items-center flex justify-center  rounded-md">
           <div
             onClick={() =>
