@@ -50,19 +50,19 @@ export default function App() {
 
   return (
     <div>
-      <div className="items-center flex justify-center  rounded-md">
-        <div
-          onClick={() =>
-            resetRequest(
-              `https://charming-bat-singlet.cyclic.app/https://cerulean-marlin-wig.cyclic.app/reset`
-            )
-          }
-          className="cursor-pointer items-center w-[25%] flex justify-center bg-teal-300 text-6xl text-white px-4 py-2 rounded-md"
-        >
-          RESET ARCHIVE
-        </div>
-      </div>
       <div id="body">
+        <div className="basis-1/3 items-center flex justify-center  rounded-md">
+          <div
+            onClick={() =>
+              resetRequest(
+                `https://charming-bat-singlet.cyclic.app/https://cerulean-marlin-wig.cyclic.app/reset`
+              )
+            }
+            className="cursor-pointer items-center w-[80%] flex justify-center bg-teal-300 text-6xl text-white px-4 py-2 rounded-md"
+          >
+            RESET ARCHIVE
+          </div>
+        </div>
         <div
           id="main-container"
           className=" rounded-xl shadow border-4 border-teal-300 text-teal-300 flex flex-col shadow mt-20 w-[360px] h-[740px] cursor-pointer bg-gray-800 "
@@ -156,6 +156,7 @@ export default function App() {
             />
           </div>
         </div>
+        <div className="basis-1/3"></div>
       </div>
     </div>
   );
