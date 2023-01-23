@@ -62,6 +62,17 @@ export default function App() {
           >
             RESET ARCHIVE
           </div>
+          <div className="flex flex-col">
+            <div className="flex p-1">
+              {"-click on a call to expand and see call details"}
+            </div>
+            <div className="flex p-1">
+              {"-click the archive button to archive a call"}
+            </div>
+            <div className="flex p-1">
+              {"-switch between Activity, Inbox, and Archived tabs"}
+            </div>
+          </div>
         </div>
         <div
           id="main-container"

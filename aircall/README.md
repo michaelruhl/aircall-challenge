@@ -4,6 +4,13 @@ Small react application for displaying call data
 
 -start with npm start
 
+-click on a call to expand and see call details
+
+-click the archive button to archive a call
+
+-switch between Activity, Inbox, and Archived tabs
+
+
 
 
 
