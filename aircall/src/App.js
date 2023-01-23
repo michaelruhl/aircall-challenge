@@ -58,7 +58,7 @@ export default function App() {
                 `https://charming-bat-singlet.cyclic.app/https://cerulean-marlin-wig.cyclic.app/reset`
               )
             }
-            className="cursor-pointer items-center w-[80%] flex justify-center bg-teal-300 text-6xl text-white px-4 py-2 rounded-md"
+            className="cursor-pointer self-center items-center w-[80%] flex justify-center bg-teal-300 text-6xl text-white px-4 py-2 rounded-md"
           >
             RESET ARCHIVE
           </div>
