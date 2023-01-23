@@ -50,7 +50,7 @@ export default function App() {
 
   return (
     <div>
-      <div id="body pt-0">
+      <div id="body" className="flex">
         <div className="basis-1/3 items-center flex justify-center  rounded-md">
           <div
             onClick={() =>
@@ -65,7 +65,7 @@ export default function App() {
         </div>
         <div
           id="main-container"
-          className=" rounded-xl shadow border-4 border-teal-300 text-teal-300 flex flex-col shadow mt-20 w-[360px] h-[740px] cursor-pointer bg-gray-800 "
+          className=" rounded-xl shadow border-4 border-teal-300 text-teal-300 flex flex-col w-[360px] h-[740px] cursor-pointer bg-gray-800 "
         >
           <div
             id="header"
