@@ -100,9 +100,9 @@ export default function App() {
             className="overflow-hidden h-[100%] lg:h-[475px] mb10"
           >
             {/* conditionally showing components based on state */}
-            {inbox ? <Inbox /> : ""}
-            {archive ? <Archive /> : ""}
-            {activity ? <Activity /> : ""}
+            {inbox ? <Inbox calls={calls} /> : ""}
+            {archive ? <Archive calls={calls} /> : ""}
+            {activity ? <Activity calls={calls} /> : ""}
           </div>
           <div
             id="Navbar"

@@ -14,10 +14,11 @@ import { Call } from "./Call"
 
 // THIS IS THE INBOX COMPONENT PASSING DATA TO CALL COMPONENT
 
-export const Inbox = () => {
-  const calls = useActivities();
+export const Inbox = (props) => {
+  // const calls = useActivities();
+  const { calls } = props
   const callArr = getBadges(calls);
-  console.log(callArr);
+  // console.log(callArr);
   return (
     <div>
       {callArr.map((data) => (

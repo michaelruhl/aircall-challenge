@@ -14,9 +14,9 @@ import { Call } from "./Call";
 
 // THIS IS THE ARCHIVE COMPONENT PASSING DATA TO CALL COMPONENT
 
-export const Archive = () => {
-  const calls = useActivities();
-  const callArr = getArchived(calls);
+export const Archive = (props) => {
+const { calls } = props  
+const callArr = getArchived(calls);
   return (
     <div>
       {callArr.map((data) => (
