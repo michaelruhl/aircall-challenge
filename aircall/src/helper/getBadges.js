@@ -10,7 +10,7 @@ export function getBadges(calls) {
 
   // populate array with missed calls
   for (let call of calls) {
-    if (call.call_type !== "answered") {
+    if (call.call_type === "missed" && !call.is_archived) {
       missedArray.push(call);
     }
   }

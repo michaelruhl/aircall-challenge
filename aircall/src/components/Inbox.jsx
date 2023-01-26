@@ -22,7 +22,7 @@ export const Inbox = (props) => {
   return (
     <div>
       {callArr.map((data) => (
-        <Call data={data}/>
+        <Call key={data.id} data={data}/>
       ))}
     </div>
   );
